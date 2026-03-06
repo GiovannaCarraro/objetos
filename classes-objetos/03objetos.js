@@ -26,4 +26,30 @@ const quadrado2 = {
     }
 };
 
-quadrado.cor = '#000'
+/* 01 - Criar um objt senai
+02 - Acessar os dados da chave
+03 - incrementar dados/alterar o objeto
+04 - Excluir um valor do objt */
+
+const senai = {
+    codigo: 603,
+    cidade: 'Araraquara'
+};
+
+console.log('------------')
+
+
+senai.telefone = 16997421672
+senai.rua = 'Hugo Negrini';
+delete senai.rua
+
+senai.endereco = {
+    rua: 'Hugo Negrini', bairro: 'Quitandinha', numero: 60}
+
+senai.alunos = ['SESI', 'EEBA', 'comunidade']
+
+senai.endereco.numero = 62;
+
+senai.alunos[2] = 'tecnico';
+
+console.log(senai)
