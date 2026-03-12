@@ -5,7 +5,7 @@
 const soma = (a, b) => a + b;
 
 // função de seta que exibe uma saudação
-const saudacao = nome => console.log(olá, ${nome}!);
+const saudacao = nome => console.log(`olá, ${nome}!`);
 
 
 // função de seta que calcula o quadrado de um número
